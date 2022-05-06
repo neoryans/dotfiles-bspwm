@@ -1,0 +1,20 @@
+# settings
+
+(GimpGegl-gegl-noise-solid-config "2022-02-23 14:16:00"
+    (time 1645614960)
+    (x-size 4)
+    (y-size 4)
+    (detail 1)
+    (tileable no)
+    (turbulent no)
+    (seed 0))
+(GimpGegl-gegl-noise-solid-config "2022-02-23 14:12:30"
+    (time 1645614750)
+    (x-size 4.1779999999999999)
+    (y-size 4.1779999999999999)
+    (detail 1)
+    (tileable no)
+    (turbulent no)
+    (seed 0))
+
+# end of settings

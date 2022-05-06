@@ -1,0 +1,101 @@
+! URXVT APPEARANCE
+URxvt.font:                       xft:JetBrainsMonoMedium nerd font mono:size=10
+URxvt.geometry:                   74x17
+URxvt.internalBorder:             20
+URxvt.cursorBlink:                true
+URxvt.cursorUnderline:            true
+URxvt.saveline:                   32768
+URxvt.scrollBar:                  false
+URxvt.scrollBar_right:            true
+URxvt.scrollBar_floating:         false
+URxvt.scrollstyle:                plain
+URxvt.urgentOnBell:               false
+URxvt.depth:                      32
+URxvt.iso14755:                   false
+! URxvt.letterSpace: -1
+
+! URXVT EXTENSIONS
+URxvt.perl-ext-common:            default,clipboard,keyboard-select,resize-font,url-select,tabbedex
+
+URxvt.tabbedex.no-tabbedex-keys:  yes
+URxvt.tabbedex.new-button:        false
+URXvt.tabbedex.reopen-on-close:   yes
+URxvt.tabbedex.autohide:          yes
+
+URxvt.tabbedex.tabbar-fg:         4
+URxvt.tabbedex.tabbar-bg:         0
+URxvt.tabbedex.tab-fg:            7
+URxvt.tabbedex.tab-bg:            0
+URxvt.tabbedex.bell-fg:           0
+URxvt.tabbedex.bell-bg:           0
+URxvt.tabbedex.bell-tab-fg:       0
+URxvt.tabbedex.bell-tab-bg:       0
+URxvt.tabbedex.title-fg:          7
+URxvt.tabbedex.title-bg:          0
+
+URxvt.keysym.Control-Shift-T:     perl:tabbedex:new_tab
+URxvt.keysym.Control-Shift-R:     perl:tabbedex:rename_tab
+URxvt.keysym.Control-Shift-W:     perl:tabbedex:kill_tab
+URxvt.keysym.Control-Next:        perl:tabbedex:next_tab
+URxvt.keysym.Control-Prior:       perl:tabbedex:prev_tab
+URxvt.keysym.Control-Shift-Next:  perl:tabbedex:move_tab_right
+URxvt.keysym.Control-Shift-Prior: perl:tabbedex:move_tab_left
+
+URxvt.clipboard.copycmd:          xclip -i -selection clipboard
+URxvt.clipboard.pastecmd:         xclip -o -selection clipboard
+URxvt.keysym.C-c:                 perl:clipboard:copy
+URxvt.keysym.C-v:                 perl:clipboard:paste
+URxvt.keysym.C-Escape:            perl:keyboard-select:activate
+URxvt.keysym.A-s:                 perl:keyboard-select:search
+
+URxvt.keysym.C-+:     font-size:increase
+URxvt.keysym.C--:   font-size:decrease
+URxvt.keysym.C-=:  font-size:reset
+URxvt.keysym.C-?:  font-size:show
+
+URxvt.urlLauncher:                firefox
+URxvt.underlineURLs:              true
+URxvt.urlButton:                  1
+
+!COLOR SCHEME
+! special
+*.foreground:   #ebdbb2
+*.background:   #1d2021
+*.cursorColor:  #9da5b4
+
+! black
+*.color0:       #282828
+*.color8:       #928374
+
+! red
+*.color1:       #cc241d
+*.color9:       #cc241d
+
+! green
+*.color2:       #98971a
+*.color10:      #b8bb26
+
+! yellow
+*.color3:       #d79921
+*.color11:      #fabd2f
+
+! blue
+*.color4:       #458588
+*.color12:      #83a598
+
+! magenta
+*.color5:       #b16286
+*.color13:      #d3869b
+
+! cyan
+*.color6:       #689d6a
+*.color14:      #8ec07c
+
+! white
+*.color7:       #a89984
+*.color15:      #ebdbb2
+
+
+
+
+

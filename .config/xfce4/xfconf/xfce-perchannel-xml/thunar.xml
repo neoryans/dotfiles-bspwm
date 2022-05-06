@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="thunar" version="1.0">
+  <property name="last-view" type="string" value="ThunarIconView"/>
+  <property name="last-icon-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_75_PERCENT"/>
+  <property name="last-window-maximized" type="bool" value="true"/>
+  <property name="last-menubar-visible" type="bool" value="false"/>
+  <property name="last-window-width" type="int" value="627"/>
+  <property name="last-window-height" type="int" value="382"/>
+  <property name="last-separator-position" type="int" value="170"/>
+  <property name="hidden-bookmarks" type="array">
+    <value type="string" value="file:///"/>
+  </property>
+  <property name="last-show-hidden" type="bool" value="true"/>
+  <property name="misc-single-click" type="bool" value="false"/>
+  <property name="last-location-bar" type="string" value="ThunarLocationButtons"/>
+  <property name="shortcuts-icon-emblems" type="bool" value="false"/>
+  <property name="tree-icon-emblems" type="bool" value="false"/>
+  <property name="shortcuts-icon-size" type="string" value="THUNAR_ICON_SIZE_24"/>
+  <property name="tree-icon-size" type="string" value="THUNAR_ICON_SIZE_16"/>
+  <property name="misc-text-beside-icons" type="bool" value="false"/>
+  <property name="misc-thumbnail-draw-frames" type="bool" value="false"/>
+  <property name="misc-directory-specific-settings" type="bool" value="false"/>
+  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_NAME"/>
+  <property name="last-sort-order" type="string" value="GTK_SORT_ASCENDING"/>
+</channel>

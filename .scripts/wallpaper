@@ -1,0 +1,8 @@
+#! /bin/sh
+WPDIR=~/.wallpaper
+WPDELAY=60
+while true; do
+      feh --bg-fill -z $WPDIR
+      sleep $WPDELAY
+   done
+done

@@ -1,0 +1,12 @@
+sxhkd &
+sh ~/.config/polybar/launch.sh & 
+greenclip daemon & 
+#nitrogen --set-zoom-fill --random ~/.wallpaper --save &
+#feh --bg-fill -z ~/.wallpaper &
+sh ~/.scripts/wallpaper &
+picom -b & 
+xsetroot -cursor_name left_ptr & 
+xfce4-power-manager & 
+lxpolkit & xmodmap -e 'clear Lock' -e 'keycode 0x42 = v' &
+blueman-applet & 
+"/usr/lib/jvm/java-17-openjdk/bin/java" -Xmx1024m -jar "/opt/xdman/xdman.jar" -m &

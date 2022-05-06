@@ -1,0 +1,75 @@
+@import "shared/colorschemes/color-dark.rasi"
+
+* {
+  background-color: @bg;
+  font: "Rubik Regular 9";
+}
+window {
+  width: 600px;
+  height: 450px;
+  x-offset:-375px;
+  y-offset:-114px;
+  border-radius: 6px;
+}
+
+mainbox {
+  background-color: @bg;
+}
+
+inputbar {
+  padding: 0px 0px 0px 0px;
+  background-color: transparent;
+  children: [entry];
+  padding: 50px 0px;
+ /* background-image: ;*/
+}
+
+entry {
+  background-color: @bg-light;
+  padding: 10px;
+  margin: 0px 45px;
+  horizontal-align: 0;
+  color: @fg;
+  border-radius: 5px;
+  placeholder: "Search";
+  placeholder-color: #ebdbb2;
+}
+
+listview {
+  columns: 4;
+  spacing: 5px;
+  fixed-columns: true;
+  background-color: transparent;
+  padding: 3%;
+}
+
+element {
+  orientation: vertical;
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+element selected {
+  background-color: @bg-hover;
+}
+
+element-icon {
+  background-color: transparent;
+  size: 24;
+  horizontal-align: 0.5;
+  cursor: inherit;
+}
+
+element-text {
+  horizontal-align: 0.5;
+  color: @fg;
+  background-color: transparent;
+  padding: 10px 5px;
+  cursor: inherit;
+}
+
+element-text selected {
+  color: @fg-hover;
+}

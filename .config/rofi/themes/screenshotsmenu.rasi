@@ -1,0 +1,40 @@
+@import "shared/colorschemes/color-dark.rasi"
+
+* {
+    icon-font: "Feather 18";
+    background-color: @bg;
+}
+window {
+    width: 100px;
+    height: 290px;
+    location: east;
+    x-offset: -10px;
+    border-radius: 10px;
+}
+
+mainbox {
+    children: [listview];
+}
+
+listview {
+    spacing: 15px;
+    columns: 1;
+    lines: 3;
+    children: [element-text];
+    padding: 10px 15px 10px -5px;
+}
+
+element-text {
+    background-color: @bg-semilight;
+    horizontal-align: 0.5;
+    padding: 20px 10px 23px 10px;
+    font: @icon-font;
+    border-radius: 10px;
+    color: @fg-unhover;
+    cursor: pointer;
+}
+
+element-text selected {
+    background-color: @bg-hover;
+    color: @fg-hover;
+}
