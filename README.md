@@ -12,8 +12,14 @@ My Blurred Gruvbox Dark Hard Dotfiles:
 - **GUI (Basic) IDE** :space_invader: [VSCodium](https://vscodium.com) with gruvbox theme!
 - **Document Viewer** :ledger: [Zathura](https://pwmt.org/projects/zathura/) Simply minimalist!
 
+# Screenshot
+Term Based
 ![Neofetch - panes - cava - pipes2](https://github.com/neoryans/dotfiles-bspwm/blob/main/Screenshot/Screenshot-01%20Terminal.png?raw=true)
+Thunar
 ![Thunar](https://github.com/neoryans/dotfiles-bspwm/blob/main/Screenshot/Screenshot-02%20Thunar.png?raw=true)
+Vscodium
 ![VSCodium](https://github.com/neoryans/dotfiles-bspwm/blob/main/Screenshot/Screenshot-03%20VSCodium.png?raw=true)
+Telegram
 ![Telegram](https://github.com/neoryans/dotfiles-bspwm/blob/main/Screenshot/Screenshot-04%20Telegram.png?raw=true)
+Zathura
 ![Zathura](https://github.com/neoryans/dotfiles-bspwm/blob/main/Screenshot/Screenshot-05%20Zathura.png?raw=true)
