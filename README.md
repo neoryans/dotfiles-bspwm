@@ -9,9 +9,8 @@ My Blurred Gruvbox Dark Hard Dotfiles:
 - **Shell** :shell: [Zsh](https://zsh.org) with [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) framework!
 - **Compositor** :shaved_ice: [Picom](https://github.com/ibhagwan/picom-ibhagwan-git) for blurring and perfection!
 - **File Manager** :file_folder: [Thunar](https://docs.xfce.org/xfce/thunar/start) customized side-pane!
-- **GUI (Basic) IDE** :space_invader: [VSCodium](https://vscodium.com) with gruvbox theme!
+- **IDE** :space_invader: [VSCodium](https://vscodium.com) with gruvbox theme!
 - **Document Viewer** :ledger: [Zathura](https://pwmt.org/projects/zathura/) Simply minimalist!
-
 # Screenshot
 Terminal Based
 ---
