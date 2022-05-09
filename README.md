@@ -1,7 +1,7 @@
 # dotfiles-bspwm
 My Blurred Gruvbox Dark Hard Dotfiles:
 
-- **Window Manager** :bento: [Bspwm](https://github.com/baskerville/bspwm) Only Dark mode form now!
+- **Window Manager** :bento: [Bspwm](https://github.com/baskerville/bspwm) Only Dark mode for now!
 - **Panel** :blossom: [Polybar](https://github.com/polybar/polybar) the best ever!
 - **Application Launcher** :rocket: [Rofi](https://github.com/davatorium/rofi) which blazing fast!
 - **Desktop Notification** :bell: [Dunst](https://github.com/dunst-project/dunst) which minimalist!
