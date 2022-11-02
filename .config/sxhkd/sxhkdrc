@@ -18,7 +18,7 @@ super + Return
 super + shift + Return
     bash -c ~/.local/bin/drawterm;
 
-# firefox browser
+# Browser
 super + w
     firefox
     
@@ -29,6 +29,10 @@ super + e
 # GreenClip
 super + 0
     bash -c ~/.scripts/greenclip
+
+# Emoji
+super + shift + 0 
+    bash -c ~/.scripts/emoji
 
 # Screenshot
 Print

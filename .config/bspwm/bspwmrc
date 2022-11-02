@@ -5,7 +5,7 @@
 $HOME/.config/bspwm/autostart
 
 
-bspc monitor -d TERM WEBS CODE MISC EDIT CHAT FIGM DOCS WRIT
+bspc monitor -d TERM WEBS CODE MISC EDIT CHAT SKYP DOCS WRIT
 
 bspc config border_width        0
 bspc config window_gap          10
@@ -21,10 +21,12 @@ bspc config focus_follows_pointer   true
 bspc rule -a URxvt desktop='^1' follow=on focus=on
 
 # Desktop 2
-bspc rule -a firefox desktop='^2' follow=on focus=on
+declare -a browser=(firefox Sidekick-browser)
+for i in ${browser[@]}; do
+	bspc rule -a $i desktop='^2' follow=on focus=on; done
 
 # Desktop 3
-bspc rule -a VSCodium desktop='^3' follow=on focus=on
+bspc rule -a Code desktop='^3' follow=on focus=on
 
 # Desktop 4
 bspc rule -a Deluge-gtk desktop='^4' follow=on focus=on
@@ -32,35 +34,33 @@ bspc rule -a Deluge-gtk desktop='^4' follow=on focus=on
 # Desktop 5
 declare -a media=(Inkscape Gimp-2.10 kdenlive Pixelorama)
 for i in ${media[@]}; do
-    bspc rule -a $i desktop='^5' follow=on focus=on; done
+	bspc rule -a $i desktop='^5' follow=on focus=on; done
 
 # Desktop 6
 bspc rule -a TelegramDesktop desktop='^6' follow=on focus=on
 
 # Desktop 7
-bspc rule -a figma-linux desktop='^7' follow=on
+bspc rule -a Skype desktop='^7' follow=on
 
 # Desktop 8
 declare -a document=(Zathura calibre)
 for i in ${document[@]}; do
-    bspc rule -a $i desktop='^8' state=tiled follow=on focus=on; done 
+	bspc rule -a $i desktop='^8' state=tiled follow=on focus=on; done 
 
 # Desktop 9
 declare -a office=(libreoffice-writer libreoffice-calc libreoffice-impress \
 libreoffice-startcenter libreoffice Soffice *:libreofficedev *:soffice)
 for i in ${office[@]}; do
-   bspc rule -a $i desktop='^9' follow=on focus=on; done
+   	bspc rule -a $i desktop='^9' follow=on focus=on; done
 
 # Floating Apps
 declare -a floatingApps=(xdman-Main Lxappearance Gparted Thunar \ 
 Viewnior Xarchiver Pavucontrol firefox:Dialog firefox:Browser \
-firefox:Pop-up nitrogen Gpick gmic_qt TelegramDesktop:Video)
+firefox:Pop-up nitrogen Gpick)
 for i in ${floatingApps[@]}; do
     bspc rule -a $i state=floating focus=on follow=on; done
 
-bspc rule -a mpv \
-     state=floating sticky=on follow=off focus=on \
-     rectangle=400x200+1366+150
-bspc rule -a "*:Toolkit:Picture-in-Picture" \
-     state=floating sticky=on follow=off focus=on \
-     rectangle=400x200+1366+150
+declare -a floatingCust=(*:*:Picture-in-picture *:Toolkit:Picture-in-Picture mpv)
+for i in ${floatingCust[@]}; do
+	bspc rule -a $i state=floating sticky=on follow=off focus=on \
+    rectangle=500x300+1366+50; done
